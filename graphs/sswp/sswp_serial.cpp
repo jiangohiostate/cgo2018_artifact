@@ -100,7 +100,7 @@ int main(int argc, char *argv[])
     wake_size = ws;
   }
 
-  cout << "time used (ms): " << time << endl;
+  cout << "time used (microseconds): " << time << endl;
   cout << "nsteps: " << nsteps << endl;
   cout << "width[5]: " << width[5] << endl;
 

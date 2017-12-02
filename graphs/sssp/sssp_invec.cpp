@@ -142,7 +142,7 @@ vfloat vzero = 0.0;
 
 
 
-  cout << "time used (ms): " << time << endl;
+  cout << "time used (microseconds): " << time << endl;
   cout << "nsteps: " << nsteps << endl;
   cout << "dis[5]: " << dis[5] << endl;
 

@@ -14,17 +14,17 @@ then
     fi
     filename=../datasets/$name
     echo -e "\e[32minput: $filename\e[0m"
-    echo -e "\e[32mversion: tiling_serial\e[0m"
+    echo -e "\e[32mversion: nontiling_serial\e[0m"
     ./wcc_serial $filename
     echo "=================================="
     echo -e "\e[32mversion: tiling_and_grouping\e[0m"
-    echo -e "\e[33mgrouping-and-tiling time is not printed out here since the procedure is the same as in sssp/sswp\e[0m"
+    echo -e "\e[33mgrouping-and-tiling time is not printed out here since the procedure is the same as in pagerank\e[0m"
     ./wcc_grouping $filename
     echo "=================================="
-    echo -e "\e[32mversion: tiling_and_mask\e[0m"
+    echo -e "\e[32mversion: nontiling_and_mask\e[0m"
     ./wcc_mask $filename
     echo "=================================="
-    echo -e "\e[32mversion: tiling_and_invec (our approach)\e[0m"
+    echo -e "\e[32mversion: nontiling_and_invec (our approach)\e[0m"
     ./wcc_invec $filename
     echo "=================================="
     echo ""

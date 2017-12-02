@@ -264,7 +264,7 @@ int main(int argc, char *argv[])
 
 
 
-  cout << "time used (ms): " << time << endl;
+  cout << "time used (microseconds): " << time << endl;
   cout << "nsteps: " << nsteps << endl;
   cout << "width[5]: " << width[5] << endl;
   cout << "overhead: " << 16.0*overhead/total_bits << endl;

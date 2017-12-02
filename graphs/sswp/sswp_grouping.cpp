@@ -126,7 +126,7 @@ int main(int argc, char *argv[])
 
   assert(t==nedges);
   gettimeofday(&tv2, &tz2);
-  cout << "grouping time (ms): " << tv2.tv_usec - tv1.tv_usec + 1000000 * (tv2.tv_sec - tv1.tv_sec) << endl;
+  cout << "tiling + grouping time (microseconds): " << tv2.tv_usec - tv1.tv_usec + 1000000 * (tv2.tv_sec - tv1.tv_sec) << endl;
 
 
   // initial widthtances are inf
@@ -248,7 +248,7 @@ int wake_size = nnodes;
 
 
 
-  cout << "time used (ms): " << time << endl;
+  cout << "time used (microseconds): " << time << endl;
   cout << "nsteps: " << nsteps << endl;
   cout << "width[5]: " << width[5] << endl;
 

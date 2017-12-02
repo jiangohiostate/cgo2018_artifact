@@ -189,7 +189,7 @@ int main(int argc, char *argv[])
 
 
 
-  cout << "time used (ms): " << time << endl;
+  cout << "time used (microseconds): " << time << endl;
   cout << "nsteps: " << nsteps << endl;
   cout << "width[5]: " << width[5] << endl;
   cout << "simd utilization: " << 1.0 * active_bits / total_bits << endl;

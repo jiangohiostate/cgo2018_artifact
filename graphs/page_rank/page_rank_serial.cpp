@@ -63,7 +63,7 @@ int main(int argc, char *argv[]) {
       }
   }
   gettimeofday(&tv2, &tz2);
-  cout << "tiling time: " << tv2.tv_usec - tv1.tv_usec + 1000000 * (tv2.tv_sec - tv1.tv_sec) <<  " ms"<< endl;
+  cout << "tiling time: " << tv2.tv_usec - tv1.tv_usec + 1000000 * (tv2.tv_sec - tv1.tv_sec) <<  " microseconds"<< endl;
 
 
   float *rank = (float *)_mm_malloc(sizeof(float)*nnodes, 64);

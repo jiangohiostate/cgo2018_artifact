@@ -249,7 +249,7 @@ int main(int argc, char *argv[])
 
 
 
-  cout << "time used (ms): " << time << endl;
+  cout << "time used (microseconds): " << time << endl;
   cout << "nsteps: " << nsteps << endl;
   cout << "comp[5]: " << comp[5] << endl;
 
